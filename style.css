@@ -1,0 +1,81 @@
+@import url(fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(16, 15, 15);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  background-image: url(img/header.jpg);
+  background-size: 5.3%;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 600px;
+  height: 100%;
+  width: 900px;
+  background-color: rgb(241, 241, 241);
+  font-family: "Harry";
+  font-size: 128px;
+}
+.block {
+  padding: 20px;
+  background-image: url(https://wallpaper.dog/large/981201.jpg);
+  background-size: 100%;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+.con {
+  width: 232.062px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bl {
+  position: relative;
+}
+img {
+  width: 164px;
+  height: 228px;
+  border-radius: 10px;
+}
+.character {
+  background-color: rgba(241, 241, 241, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  width: 430px;
+  height: 460px;
+}
+b {
+  text-transform: uppercase;
+}
+p {
+  display: inline;
+}
+h1 {
+  font-family: "Harry";
+  text-align: center;
+  font-size: 48px;
+}
